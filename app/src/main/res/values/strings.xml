@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">먹수정</string>
+    <string name="keyword_theme">성신여대 </string>
+    <string name="string_theme_alone">혼밥</string>
+    <string name="string_theme_date">데이트</string>
+    <string name="string_theme_family">가족식사</string>
+    <string name="string_theme_calm">조용한</string>
+    <string name="string_theme_fancy">고급스러운</string>
+    <string name="string_theme_group">회식</string>
+
+
 </resources>

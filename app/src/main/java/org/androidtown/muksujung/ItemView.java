@@ -16,24 +16,28 @@ public class ItemView extends FrameLayout {
     }
 
     URLImageView iconView;
-    TextView titleView, telephoneView, addressView;
+    TextView titleView, telephoneView,descriptionView, addressView, mapX, mapY;
     private void init(){
         inflate(getContext(), R.layout.view_item_store, this);
         iconView = findViewById(R.id.image_icon);
         titleView = (TextView)findViewById(R.id.itemstore_text_title);
         telephoneView = (TextView)findViewById(R.id.itemstore_text_telephone);
+        descriptionView = (TextView)findViewById(R.id.itemstore_text_description);
         addressView = (TextView)findViewById(R.id.itemstore_text_address);
+        mapX = (TextView)findViewById(R.id.itemstore_text_mapX);
+        mapY= (TextView)findViewById(R.id.itemstore_text_mapY);
     }
 
     StoreItem item;
-    //    ImageRequest mRequest;
-    //
+
     public void setStoreItem(StoreItem item) {
         this.item = item;
         titleView.setText(Html.fromHtml(item.title));
-        addressView.setText(item.description);
+        addressView.setText(item.address);
+        descriptionView.setText(item.description);
         telephoneView.setText(item.telephone);
-
+        mapX.setText(item.mapx);
+        mapY.setText(item.mapy);
         // iconView item.image....
         iconView.setImageURL(item.image);
 

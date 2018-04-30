@@ -27,12 +27,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Address" />
-
+        <TextView
+            android:id="@+id/itemstore_text_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description" />
         <TextView
             android:id="@+id/itemstore_text_telephone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Telephone" />
+        <TextView
+            android:id="@+id/itemstore_text_mapX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mapX" />
+        <TextView
+            android:id="@+id/itemstore_text_mapY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mapY" />
 
     </LinearLayout>
 

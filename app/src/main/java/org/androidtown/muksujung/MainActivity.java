@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
                 break;
             case R.id.findmine:
-                i = new Intent(this,FindMine.class);
+                i = new Intent(this,MineList.class);
                 startActivity(i);
                 break;
         }

@@ -37,16 +37,16 @@
         android:layout_height="wrap_content"
         android:gravity="center">
         <Button
-            android:id="@+id/calm"
+            android:id="@+id/brunch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="조용한분위기"
+            android:text="브런치"
             android:onClick="onButton"/>
         <Button
-            android:id="@+id/fancy"
+            android:id="@+id/bakery"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="고급스러운"
+            android:text="베이커리"
             android:onClick="onButton"/>
         <Button
             android:id="@+id/group"
@@ -62,7 +62,8 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/allstore"
-            android:text="전체보기"/>
+            android:id="@+id/searchAll"
+            android:text="전체보기"
+            android:onClick="onButton" />
     </LinearLayout>
 </LinearLayout>
