@@ -119,13 +119,22 @@ public class Restaurants extends AppCompatActivity implements MapView.CurrentLoc
             }
         });
 
-        // 리스트뷰 누르면 상세페이지로 이동
+        // 리스트뷰 누르면 마커 반응
         final AdapterView.OnItemClickListener listener = new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int pos, long l) {
                 pos = listView.getCheckedItemPosition();
                 if(pos != -1){
 //                    ☆마커 반응하기 구현할 곳☆
+//                    리스트뷰 누르면 상세페이지로 이동 구현 (이전)
+//                    Log.d("Restaurants.java", "link= " + mAdapter.getItem(pos).link);
+//                    String url = mAdapter.getItem(pos).link;
+//                    if(url != null){
+//                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+//                        startActivity(intent);
+//                    }
+//                    else
+//                        Toast.makeText(Restaurants.this, "링크없음", Toast.LENGTH_SHORT).show();
                 }
             }
         };
