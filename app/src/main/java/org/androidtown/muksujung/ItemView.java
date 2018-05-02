@@ -24,8 +24,6 @@ public class ItemView extends FrameLayout {
         telephoneView = (TextView)findViewById(R.id.itemstore_text_telephone);
         descriptionView = (TextView)findViewById(R.id.itemstore_text_description);
         addressView = (TextView)findViewById(R.id.itemstore_text_address);
-        mapX = (TextView)findViewById(R.id.itemstore_text_mapX);
-        mapY= (TextView)findViewById(R.id.itemstore_text_mapY);
     }
 
     StoreItem item;
@@ -36,8 +34,6 @@ public class ItemView extends FrameLayout {
         addressView.setText(item.address);
         descriptionView.setText(item.description);
         telephoneView.setText(item.telephone);
-        mapX.setText(item.mapx);
-        mapY.setText(item.mapy);
         // iconView item.image....
         iconView.setImageURL(item.image);
 
